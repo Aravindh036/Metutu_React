@@ -1,0 +1,57 @@
+.mainDiv{
+    margin: 10px;
+    padding: 10px;
+    width: 100%; 
+    height: 100%;
+    /* border: solid 1px grey; */
+    display: flex;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+
+.subDiv{
+    border: solid 1px grey;
+    margin:0px auto;
+    border-color: black;
+    padding: 20px;
+    border-radius: 5px;
+    width: 300px;
+}
+
+.commonLabel{
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid;
+    border-color: lightgray;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+.button{
+    padding: 10px;
+    border-radius: 4px;
+    border: none;
+    margin-top: 10px;
+    /* color: white; */
+}
+
+.button:hover{
+    background-color:grey;
+    color: white;
+    cursor: pointer;
+}
+
+.commonLabel:focus{
+    border-color: blue;
+}
+
+.link{
+    text-decoration:none;
+    color:grey;
+}
+
+.link:hover{
+    color: blue;
+}
